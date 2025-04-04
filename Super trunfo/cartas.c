@@ -121,5 +121,31 @@ printf("PIB: %f \n", PIB2);
 
 printf("Pontos Turìsticos: %d\n", pontosturisticos2);
 
-// fim 
+//comparção do PIB per capita:
+
+int resultadoA;
+
+int resultadoB;
+
+resultadoA = PIB1 / populacao1;
+
+resultadoB = PIB2 / populacao2;
+
+
+if(resultadoA > resultadoB){
+                          // exibir :
+    printf("   A carta 1 venceu!  \n");
+    printf("A carta 1 tem o maior PIB per capita: %d\n", resultadoA);
+    
+}else {
+    printf("   A carta 2 venceu!  \n");
+    printf("A carta 2 tem o maior PIB per capita: %d\n", resultadoB);
+}
+
+
+
+
+    return 0;
+
+
 }
